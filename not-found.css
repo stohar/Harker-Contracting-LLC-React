@@ -8,8 +8,8 @@
   justify-content: flex-start;
 }
 .not-found-image {
-  width: 504px;
-  height: 201px;
+  width: 500px;
+  height: auto;
   margin-top: 25px;
   object-fit: cover;
 }
@@ -58,10 +58,17 @@
   }
 }
 @media(max-width: 479px) {
+  .not-found-image {
+    width: 250px;
+  }
   .not-found-banner {
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: 32px;
+  }
+  .not-found-lottie-node {
+    width: 300px;
+    height: 300px;
   }
 }
