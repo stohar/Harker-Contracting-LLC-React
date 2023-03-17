@@ -1,82 +1,70 @@
 <div>
   <link href="./header.css" rel="stylesheet" />
   <div data-role="Header" class="header-header">
-    <header data-role="Header" class="header-header1">
-      <header data-thq="thq-navbar" class="header-navbar-interactive">
-        <a href="index.html" class="header-navlink">
-          <img
-            alt="logo"
-            src="/playground_assets/hcl-logowhite-text-transparent-background%20resized%20for%20ms365-200h.png"
-            class="header-logo"
-          />
-        </a>
-        <div
-          data-thq="thq-navbar-nav"
-          data-role="Nav"
-          class="header-desktop-menu"
-        >
+    <header data-thq="thq-navbar" class="header-navbar-interactive">
+      <a href="index.html" class="header-navlink">
+        <img
+          alt="logo"
+          src="/playground_assets/hcl-logowhite-text-transparent-background%20resized%20for%20ms365-200h.png"
+          class="header-logo"
+        />
+      </a>
+      <div
+        data-thq="thq-navbar-nav"
+        data-role="Nav"
+        class="header-desktop-menu"
+      >
+        <nav data-thq="thq-navbar-nav-links" data-role="Nav" class="header-nav">
+          <span><span>About</span></span>
+          <span class="header-text1"><span>Features</span></span>
+          <span class="header-text2"><span>Pricing</span></span>
+          <span class="header-text3"><span>Team</span></span>
+          <span class="header-text4"><span>Team</span></span>
+          <span class="header-text5"><span>Blog</span></span>
+        </nav>
+      </div>
+      <div data-thq="thq-navbar-btn-group" class="header-btn-group">
+        <button class="header-login button"><span>Login</span></button>
+        <button class="button"><span>Register</span></button>
+      </div>
+      <div data-thq="thq-burger-menu" class="header-burger-menu">
+        <svg viewBox="0 0 1024 1024" class="header-icon">
+          <path
+            d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+          ></path>
+        </svg>
+      </div>
+      <div data-thq="thq-mobile-menu" class="header-mobile-menu">
+        <div data-thq="thq-mobile-menu-nav" data-role="Nav" class="header-nav1">
+          <div class="header-container">
+            <a href="index.html" class="header-navlink1">
+              <img
+                alt="image"
+                src="/playground_assets/hcl-logored-text-transparent-background-200h.png"
+                class="header-image"
+              />
+            </a>
+            <div data-thq="thq-close-menu" class="header-menu-close">
+              <svg viewBox="0 0 1024 1024" class="header-icon2">
+                <path
+                  d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                ></path>
+              </svg>
+            </div>
+          </div>
           <nav
-            data-thq="thq-navbar-nav-links"
+            data-thq="thq-mobile-menu-nav-links"
             data-role="Nav"
-            class="header-nav"
+            class="header-nav2"
           >
-            <span><span>About</span></span>
-            <span class="header-text1"><span>Features</span></span>
-            <span class="header-text2"><span>Pricing</span></span>
-            <span class="header-text3"><span>Team</span></span>
-            <span class="header-text4"><span>Team</span></span>
-            <span class="header-text5"><span>Blog</span></span>
+            <a href="index.html" class="header-navlink2"><span>Home</span></a>
+            <a href="about.html" class="header-navlink3"><span>About</span></a>
+            <a href="contact.html" class="header-navlink4">
+              <span>Contact</span>
+            </a>
           </nav>
         </div>
-        <div data-thq="thq-navbar-btn-group" class="header-btn-group">
-          <button class="header-login button"><span>Login</span></button>
-          <button class="button"><span>Register</span></button>
-        </div>
-        <div data-thq="thq-burger-menu" class="header-burger-menu">
-          <svg viewBox="0 0 1024 1024" class="header-icon">
-            <path
-              d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
-            ></path>
-          </svg>
-        </div>
-        <div data-thq="thq-mobile-menu" class="header-mobile-menu">
-          <div
-            data-thq="thq-mobile-menu-nav"
-            data-role="Nav"
-            class="header-nav1"
-          >
-            <div class="header-container">
-              <a href="index.html" class="header-navlink1">
-                <img
-                  alt="image"
-                  src="/playground_assets/hcl-logored-text-transparent-background-200h.png"
-                  class="header-image"
-                />
-              </a>
-              <div data-thq="thq-close-menu" class="header-menu-close">
-                <svg viewBox="0 0 1024 1024" class="header-icon2">
-                  <path
-                    d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                  ></path>
-                </svg>
-              </div>
-            </div>
-            <nav
-              data-thq="thq-mobile-menu-nav-links"
-              data-role="Nav"
-              class="header-nav2"
-            >
-              <a href="index.html" class="header-navlink2"><span>Home</span></a>
-              <a href="about.html" class="header-navlink3">
-                <span>About</span>
-              </a>
-              <a href="contact.html" class="header-navlink4">
-                <span>Contact</span>
-              </a>
-            </nav>
-          </div>
-        </div>
-      </header>
+      </div>
     </header>
   </div>
 </div>
