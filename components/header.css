@@ -162,7 +162,10 @@
   margin-bottom: 0px;
 }
 
-
+.header-root-class-name2 {
+  max-width: 100%;
+  align-self: center;
+}
 @media(max-width: 1200px) {
   .header-desktop-menu {
     display: none;
