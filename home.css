@@ -397,6 +397,7 @@
   font-size: 1rem;
   margin-top: var(--dl-space-space-triplequarter);
   transition: 0.3s;
+  font-family: Arial;
   line-height: 1.5;
   padding-top: 5px;
   border-style: solid;
