@@ -302,6 +302,7 @@
   bottom: 0px;
   height: 100%;
   display: flex;
+  padding: 10px;
   position: absolute;
   align-items: center;
   flex-direction: column;
@@ -310,6 +311,9 @@
 .home-lottie-node {
   width: 300px;
   height: 300px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 .home-container03 {
   display: flex;
@@ -327,6 +331,7 @@
   color: var(--dl-color-gray-white);
   max-width: 600px;
   text-align: center;
+  margin-bottom: 25px;
 }
 .home-section1 {
   flex: 0 0 auto;
