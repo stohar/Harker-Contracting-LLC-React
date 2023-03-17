@@ -168,6 +168,7 @@
   justify-content: space-between;
 }
 .contact-text6 {
+  color: var(--dl-color-gray-black);
   font-size: 3rem;
   text-align: center;
 }
@@ -176,12 +177,14 @@
   height: 500px;
 }
 .contact-text7 {
+  color: var(--dl-color-gray-black);
   max-width: 1400px;
   margin-top: 32px;
   text-align: center;
   margin-bottom: 32px;
 }
 .contact-navlink5 {
+  color: var(--dl-color-gray-black);
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
   padding-left: 32px;
