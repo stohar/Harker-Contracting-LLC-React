@@ -116,11 +116,9 @@
   flex-direction: column;
 }
 .about-navbar-interactive {
-  flex: 1;
   width: 100%;
-  height: auto;
-  display: none;
-  position: relative;
+  display: flex;
+  align-self: center;
   align-items: center;
   padding-top: 5px;
   padding-left: 48px;
@@ -128,6 +126,9 @@
   padding-bottom: 5px;
   justify-content: space-between;
   background-color: var(--dl-color-pimary-500);
+}
+.about-navlink {
+  display: contents;
 }
 .about-logo {
   width: 256px;
@@ -184,6 +185,7 @@
   z-index: 100;
   position: fixed;
   transform: translateY(-100%);
+  align-self: center;
   transition: 0.5s;
   padding-top: 5px;
   padding-left: 48px;
@@ -195,7 +197,6 @@
 }
 .about-nav1 {
   display: flex;
-  padding: 10px;
   align-items: flex-end;
   flex-direction: column;
 }
