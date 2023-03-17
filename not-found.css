@@ -162,6 +162,7 @@
   margin-bottom: 0px;
 }
 
+
 @media(max-width: 1200px) {
   .header-desktop-menu {
     display: none;
