@@ -1368,17 +1368,6 @@
   position: absolute;
   object-fit: cover;
 }
-@media(max-width: 1200px) {
-  .home-desktop-menu {
-    display: none;
-  }
-  .home-btn-group {
-    display: none;
-  }
-  .home-burger-menu {
-    display: flex;
-  }
-}
 @media(max-width: 991px) {
   .home-cards-container {
     align-items: center;

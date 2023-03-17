@@ -192,17 +192,6 @@
 .contact-navlink5:hover {
   transform: scale(1.02);
 }
-@media(max-width: 1200px) {
-  .contact-desktop-menu {
-    display: none;
-  }
-  .contact-btn-group {
-    display: none;
-  }
-  .contact-burger-menu {
-    display: flex;
-  }
-}
 @media(max-width: 991px) {
   .contact-text7 {
     max-width: 100%;
