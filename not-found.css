@@ -33,41 +33,10 @@
 .header-logo {
   width: 256px;
   height: 102px;
-  text-decoration: none;
-}
-.header-desktop-menu {
-  display: none;
-}
-.header-nav {
-  flex: 0 0 auto;
   display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.header-text1 {
-  margin-left: 32px;
-}
-.header-text2 {
-  margin-left: 32px;
-}
-.header-text3 {
-  margin-left: 32px;
-}
-.header-text4 {
-  margin-left: 32px;
-}
-.header-text5 {
-  margin-left: 32px;
-}
-.header-btn-group {
-  display: none;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.header-login {
-  border-width: 0px;
-  margin-right: 32px;
+  background-size: cover;
+  background-image: url("public/playground_assets/hcl-logowhite-text-transparent-background%20resized%20for%20ms365-200h.png");
+  background-position: center;
 }
 .header-burger-menu {
   display: flex;
@@ -98,7 +67,7 @@
   justify-content: space-between;
   background-color: #fff;
 }
-.header-nav1 {
+.header-nav {
   display: flex;
   align-items: flex-end;
   flex-direction: column;
@@ -126,7 +95,7 @@
   width: 20px;
   height: 20px;
 }
-.header-nav2 {
+.header-nav1 {
   flex: 0 0 auto;
   display: flex;
   align-items: flex-end;
@@ -169,21 +138,6 @@
   .header-navbar-interactive {
     padding-left: 32px;
     padding-right: 32px;
-  }
-  .header-text1 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .header-text2 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .header-text3 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .header-text4 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .header-text5 {
-    margin-left: var(--dl-space-space-unit);
   }
   .header-root-class-name {
     margin-bottom: 0px;
