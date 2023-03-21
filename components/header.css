@@ -133,6 +133,9 @@
     max-width: 1320px;
     margin-bottom: var(--dl-space-space-triplequarter);
   }
+  .header-root-class-name1 {
+    margin-bottom: 0px;
+  }
 }
 @media(max-width: 767px) {
   .header-header {
@@ -159,6 +162,9 @@
     padding: 16px;
   }
   .header-root-class-name2 {
+    margin-bottom: 0px;
+  }
+  .header-root-class-name1 {
     margin-bottom: 0px;
   }
 }
