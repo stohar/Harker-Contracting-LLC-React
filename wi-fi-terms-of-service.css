@@ -1,4 +1,4 @@
-.wifi-connection-successful-container {
+.wi-fi-terms-of-service-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -8,7 +8,7 @@
   justify-content: flex-start;
   background-color: var(--dl-color-pimary-800);
 }
-.wifi-connection-successful-banner {
+.wi-fi-terms-of-service-banner {
   width: 100%;
   display: flex;
   padding: 48px;
@@ -16,52 +16,69 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.wifi-connection-successful-image {
+.wi-fi-terms-of-service-image {
   width: auto;
   height: auto;
   object-fit: cover;
 }
-.wifi-connection-successful-text {
+.wi-fi-terms-of-service-text {
   color: var(--dl-color-gray-black);
   font-size: 3rem;
   text-align: center;
 }
-.wifi-connection-successful-text01 {
+.wi-fi-terms-of-service-text01 {
   color: var(--dl-color-gray-black);
   max-width: 1400px;
-  margin-top: 32px;
+  margin-top: 0px;
   text-align: center;
   line-height: 1.25;
-  margin-bottom: 32px;
+  padding-left: 25px;
+  margin-bottom: 0px;
+  padding-right: 25px;
 }
-.wifi-connection-successful-button {
+.wi-fi-terms-of-service-text05 {
+  font-weight: 700;
+}
+.wi-fi-terms-of-service-text10 {
+  font-weight: 700;
+}
+.wi-fi-terms-of-service-text15 {
+  font-weight: 700;
+}
+.wi-fi-terms-of-service-text20 {
+  font-weight: 700;
+}
+.wi-fi-terms-of-service-text23 {
   color: var(--dl-color-gray-black);
-  transition: 0.3s;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-bottom: var(--dl-space-space-unit);
+  line-height: 1.25;
 }
-.wifi-connection-successful-button:hover {
-  transform: scale(1.02);
+.wi-fi-terms-of-service-text24 {
+  font-weight: 700;
+}
+.wi-fi-terms-of-service-text30 {
+  font-weight: 700;
+}
+.wi-fi-terms-of-service-text35 {
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 @media(max-width: 991px) {
-  .wifi-connection-successful-text01 {
+  .wi-fi-terms-of-service-text01 {
     max-width: 100%;
   }
 }
 @media(max-width: 767px) {
-  .wifi-connection-successful-banner {
+  .wi-fi-terms-of-service-banner {
     padding-left: 32px;
     padding-right: 32px;
   }
-  .wifi-connection-successful-text01 {
+  .wi-fi-terms-of-service-text01 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 479px) {
-  .wifi-connection-successful-banner {
+  .wi-fi-terms-of-service-banner {
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
