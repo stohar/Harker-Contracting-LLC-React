@@ -119,6 +119,8 @@
   max-width: 100%;
   align-self: center;
 }
+
+
 @media(max-width: 991px) {
   .header-header {
     max-width: 1320px;
