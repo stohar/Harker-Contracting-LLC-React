@@ -76,6 +76,7 @@
 .header-container {
   width: 100%;
   display: flex;
+  align-self: flex-end;
   margin-top: 15px;
   align-items: center;
   margin-bottom: 15px;
@@ -83,6 +84,7 @@
 }
 .header-menu-close {
   display: flex;
+  position: relative;
   align-items: center;
   justify-content: center;
 }
