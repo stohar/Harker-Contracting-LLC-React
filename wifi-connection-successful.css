@@ -34,15 +34,16 @@
   line-height: 1.25;
   margin-bottom: 32px;
 }
-.wifi-connection-successful-button {
+.wifi-connection-successful-navlink {
   color: var(--dl-color-gray-black);
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.wifi-connection-successful-button:hover {
+.wifi-connection-successful-navlink:hover {
   transform: scale(1.02);
 }
 @media(max-width: 991px) {
