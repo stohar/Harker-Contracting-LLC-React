@@ -75,16 +75,10 @@
 .header-container {
   width: 100%;
   display: flex;
+  margin-top: 15px;
   align-items: center;
-  justify-content: space-between;
-}
-.header-navlink1 {
-  display: contents;
-}
-.header-image {
-  width: 256px;
-  height: 102px;
-  text-decoration: none;
+  margin-bottom: 15px;
+  justify-content: flex-end;
 }
 .header-menu-close {
   display: flex;
@@ -101,17 +95,17 @@
   align-items: flex-end;
   flex-direction: column;
 }
+.header-navlink1 {
+  align-self: flex-end;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
 .header-navlink2 {
   align-self: flex-end;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .header-navlink3 {
-  align-self: flex-end;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.header-navlink4 {
   align-self: flex-end;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
