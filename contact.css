@@ -187,7 +187,9 @@
   align-self: center;
   margin-top: 0px;
 }
-
+.footer-root-class-name {
+  height: auto;
+}
 .footer-root-class-name1 {
   height: auto;
 }
@@ -200,144 +202,16 @@
   align-items: center;
   flex-direction: column;
 }
-.contact-navbar-interactive {
-  width: 100%;
-  display: none;
-  align-self: center;
-  align-items: center;
-  padding-top: 5px;
-  padding-left: 48px;
-  padding-right: 48px;
-  padding-bottom: 5px;
-  justify-content: space-between;
-  background-color: var(--dl-color-pimary-500);
-}
-.contact-logo {
-  width: 256px;
-  height: 102px;
-  text-decoration: none;
-}
-.contact-desktop-menu {
-  display: none;
-}
-.contact-nav {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-}
-.contact-text1 {
-  margin-left: 32px;
-}
-.contact-text2 {
-  margin-left: 32px;
-}
-.contact-text3 {
-  margin-left: 32px;
-}
-.contact-text4 {
-  margin-left: 32px;
-}
-.contact-text5 {
-  margin-left: 32px;
-}
-.contact-btn-group {
-  display: none;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.contact-login {
-  border-width: 0px;
-  margin-right: 32px;
-}
-.contact-burger-menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.contact-icon {
-  fill: var(--dl-color-gray-white);
-  width: 20px;
-  height: 20px;
-}
-.contact-mobile-menu {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 282px;
-  display: flex;
-  z-index: 100;
-  position: fixed;
-  transform: translateY(-100%);
-  align-self: center;
-  transition: 0.5s;
-  padding-top: 5px;
-  padding-left: 48px;
-  padding-right: 48px;
-  flex-direction: column;
-  padding-bottom: 5px;
-  justify-content: space-between;
-  background-color: #fff;
-}
-.contact-nav1 {
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-}
-.contact-container1 {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.contact-navlink1 {
-  display: contents;
-}
-.contact-image {
-  width: 256px;
-  height: 102px;
-  text-decoration: none;
-}
-.contact-menu-close {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.contact-icon2 {
-  width: 20px;
-  height: 20px;
-}
-.contact-nav2 {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-}
-.contact-navlink2 {
-  align-self: flex-end;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.contact-navlink3 {
-  align-self: flex-end;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
-.contact-navlink4 {
-  align-self: flex-end;
-  margin-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-}
 .contact-banner {
   width: 100%;
+  height: 80%;
   display: flex;
   padding: 48px;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
 }
-.contact-text6 {
+.contact-text {
   color: var(--dl-color-gray-black);
   font-size: 3rem;
   text-align: center;
@@ -346,14 +220,14 @@
   width: auto;
   height: auto;
 }
-.contact-text7 {
+.contact-text1 {
   color: var(--dl-color-gray-black);
   max-width: 1400px;
   margin-top: 32px;
   text-align: center;
   margin-bottom: 32px;
 }
-.contact-navlink5 {
+.contact-navlink {
   color: var(--dl-color-gray-black);
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
@@ -362,50 +236,25 @@
   padding-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.contact-navlink5:hover {
+.contact-navlink:hover {
   transform: scale(1.02);
 }
 @media(max-width: 991px) {
-  .contact-text7 {
+  .contact-text1 {
     max-width: 100%;
   }
 }
 @media(max-width: 767px) {
-  .contact-navbar-interactive {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-  .contact-text1 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .contact-text2 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .contact-text3 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .contact-text4 {
-    margin-left: var(--dl-space-space-unit);
-  }
-  .contact-text5 {
-    margin-left: var(--dl-space-space-unit);
-  }
   .contact-banner {
     padding-left: 32px;
     padding-right: 32px;
   }
-  .contact-text7 {
+  .contact-text1 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 479px) {
-  .contact-navbar-interactive {
-    padding: var(--dl-space-space-unit);
-  }
-  .contact-mobile-menu {
-    padding: 16px;
-  }
   .contact-banner {
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);

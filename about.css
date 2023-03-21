@@ -277,7 +277,9 @@
   align-self: center;
   margin-top: 0px;
 }
-
+.footer-root-class-name {
+  height: auto;
+}
 .footer-root-class-name1 {
   height: auto;
 }
