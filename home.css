@@ -468,6 +468,7 @@
   display: flex;
   padding: 10px;
   position: absolute;
+  min-height: 100%;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -1539,6 +1540,9 @@
   object-fit: cover;
 }
 @media(max-width: 991px) {
+  .home-container02 {
+    min-height: 100%;
+  }
   .home-cards-container {
     align-items: center;
     flex-direction: column;
@@ -1593,6 +1597,9 @@
   }
   .home-text05 {
     margin-left: var(--dl-space-space-unit);
+  }
+  .home-container02 {
+    min-height: 100%;
   }
   .home-section1 {
     padding-left: var(--dl-space-space-doubleunit);
@@ -1656,6 +1663,9 @@
   }
   .home-mobile-menu {
     padding: 16px;
+  }
+  .home-container02 {
+    min-height: 100%;
   }
   .home-container03 {
     padding-left: var(--dl-space-space-doubleunit);
