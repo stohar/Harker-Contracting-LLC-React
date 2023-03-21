@@ -50,6 +50,10 @@
   </head>
   <body>
     <div>
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html@0.1.12/dist/default/lib.umd.js"
+      ></script>
       <link href="./wifi-connection-successful.css" rel="stylesheet" />
 
       <div class="wifi-connection-successful-container">
@@ -80,7 +84,7 @@
             <span>Happy browsing!</span>
             <br />
             <br />
-            <span>-The Harkers</span>
+            <span class="wifi-connection-successful-text11">-The Harkers-</span>
             <br />
           </span>
           <a
@@ -89,6 +93,48 @@
           >
             Read the Terms of Service
           </a>
+        </div>
+        <div class="wifi-connection-successful-div">
+          <dangerous-html
+            html="<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		#countdown {
+			font-size: 48px;
+			font-family: Calibri, sans-serif;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<div id='countdown'></div>
+
+	<script>
+		var countDownDate = new Date().getTime() + (8 * 60 * 60 * 1000); // Set the timer for 8 hours from now
+
+		var x = setInterval(function() {
+
+			var now = new Date().getTime();
+			var distance = countDownDate - now;
+
+			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+			document.getElementById('countdown').innerHTML = hours + 'h ' + minutes + 'm ' + seconds + 's ';
+
+			if (distance < 0) {
+				clearInterval(x);
+				document.getElementById('countdown').innerHTML = 'EXPIRED';
+			}
+		}, 1000);
+	</script>
+</body>
+</html>
+"
+          ></dangerous-html>
         </div>
       </div>
     </div>

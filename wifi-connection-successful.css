@@ -34,6 +34,9 @@
   line-height: 1.25;
   margin-bottom: 32px;
 }
+.wifi-connection-successful-text11 {
+  font-weight: 700;
+}
 .wifi-connection-successful-navlink {
   color: var(--dl-color-gray-black);
   transition: 0.3s;
@@ -45,6 +48,9 @@
 }
 .wifi-connection-successful-navlink:hover {
   transform: scale(1.02);
+}
+.wifi-connection-successful-div {
+  align-self: center;
 }
 @media(max-width: 991px) {
   .wifi-connection-successful-text01 {
