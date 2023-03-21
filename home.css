@@ -121,8 +121,13 @@
   max-width: 100%;
   align-self: center;
 }
-
-
+.header-root-class-name1 {
+  max-width: 100%;
+  align-self: center;
+}
+.header-root-class-name3 {
+  max-width: 100%;
+}
 @media(max-width: 991px) {
   .header-header {
     max-width: 1320px;
