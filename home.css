@@ -295,11 +295,9 @@
   background-color: var(--dl-color-gray-black);
 }
 .home-container02 {
-  top: auto;
-  left: auto;
-  right: 0px;
+  top: 0px;
+  left: 0px;
   width: 100%;
-  bottom: 0px;
   height: 100%;
   display: flex;
   padding: 10px;
@@ -308,13 +306,6 @@
   flex-direction: column;
   justify-content: center;
 }
-.home-lottie-node {
-  width: 300px;
-  height: 300px;
-  margin-top: 25px;
-  margin-left: 25px;
-  margin-right: 25px;
-}
 .home-container03 {
   display: flex;
   align-items: center;
@@ -322,6 +313,13 @@
   padding-right: var(--dl-space-space-tripleunit);
   flex-direction: column;
   justify-content: center;
+}
+.home-lottie-node {
+  width: 300px;
+  height: 300px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .home-text06 {
   color: var(--dl-color-gray-white);
@@ -401,6 +399,7 @@
   color: #ffffff;
   font-size: 1rem;
   margin-top: var(--dl-space-space-triplequarter);
+  text-align: center;
   transition: 0.3s;
   font-family: Arial;
   line-height: 1.5;
@@ -1499,6 +1498,9 @@
   .home-container03 {
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
+  }
+  .home-link {
+    text-align: center;
   }
   .home-card1 {
     margin-bottom: var(--dl-space-space-tripleunit);
