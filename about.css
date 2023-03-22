@@ -297,14 +297,6 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.about-container01 {
-  width: 100%;
-  display: flex;
-  position: relative;
-  min-height: 100vh;
-  align-items: flex-start;
-  flex-direction: column;
-}
 .about-hero {
   flex: 0 0 auto;
   width: 100%;
@@ -326,7 +318,7 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-black);
 }
-.about-container02 {
+.about-container1 {
   top: auto;
   left: auto;
   right: 0px;
@@ -339,7 +331,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.about-container03 {
+.about-container2 {
   display: flex;
   align-items: center;
   padding-left: var(--dl-space-space-tripleunit);
@@ -364,7 +356,7 @@
   padding-bottom: var(--dl-space-space-fiveunits);
   background-color: var(--dl-color-pimary-800);
 }
-.about-container04 {
+.about-container3 {
   width: auto;
   display: flex;
   max-width: 100%;
@@ -404,7 +396,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.about-container05 {
+.about-container4 {
   flex: 0 0 auto;
   width: 30%;
   display: flex;
@@ -413,7 +405,7 @@
   padding-right: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.about-container06 {
+.about-container5 {
   flex: 0 0 auto;
   width: 48px;
   height: 48px;
@@ -438,7 +430,7 @@
   font-size: 1.25rem;
   text-align: center;
 }
-.about-container07 {
+.about-container6 {
   flex: 0 0 auto;
   width: 30%;
   display: flex;
@@ -447,7 +439,7 @@
   padding-right: var(--dl-space-space-unit);
   flex-direction: column;
 }
-.about-container08 {
+.about-container7 {
   flex: 0 0 auto;
   width: 48px;
   height: 48px;
@@ -570,7 +562,7 @@
   color: var(--dl-color-secondary-500);
   box-shadow: 0 0 0 2px #4AA4E3;
 }
-.about-container09 {
+.about-container8 {
   display: flex;
   align-self: center;
   margin-top: var(--dl-space-space-unit);
@@ -582,18 +574,18 @@
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
   }
-  .about-container04 {
+  .about-container3 {
     width: 100%;
   }
   .about-services {
     align-items: center;
     flex-direction: column;
   }
-  .about-container05 {
+  .about-container4 {
     width: 100%;
     padding-bottom: var(--dl-space-space-doubleunit);
   }
-  .about-container07 {
+  .about-container6 {
     width: 100%;
     padding-bottom: var(--dl-space-space-doubleunit);
   }
@@ -607,7 +599,7 @@
   .about-hero {
     height: 20vh;
   }
-  .about-container03 {
+  .about-container2 {
     padding-left: var(--dl-space-space-doubleunit);
     padding-right: var(--dl-space-space-doubleunit);
   }
