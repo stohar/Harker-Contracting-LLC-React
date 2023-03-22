@@ -17,11 +17,16 @@
   margin-top: 0px;
 }
 .footer-root-class-name {
+  left: 0px;
+  bottom: 0px;
   height: auto;
+  position: absolute;
+  align-self: center;
 }
 .footer-root-class-name1 {
   height: auto;
 }
+
 
 .not-found-container {
   width: 100%;

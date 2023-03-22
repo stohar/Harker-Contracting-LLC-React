@@ -188,16 +188,29 @@
   margin-top: 0px;
 }
 .footer-root-class-name {
+  left: 0px;
+  bottom: 0px;
   height: auto;
+  position: absolute;
+  align-self: center;
 }
 .footer-root-class-name1 {
   height: auto;
 }
 
+
 .contact-container {
   width: 100%;
   display: flex;
   overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-container1 {
+  width: 100%;
+  display: flex;
+  position: relative;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
@@ -223,7 +236,7 @@
   width: auto;
   min-width: 50%;
 }
-.contact-container1 {
+.contact-container2 {
   display: none;
   align-items: center;
   flex-direction: column;
