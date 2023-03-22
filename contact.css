@@ -206,15 +206,28 @@
   width: 100%;
   height: 80%;
   display: flex;
-  padding: 48px;
   align-items: center;
+  padding-top: 48px;
+  padding-left: 20px;
+  padding-right: 20px;
   flex-direction: column;
+  padding-bottom: 48px;
   justify-content: space-between;
 }
 .contact-text {
   color: var(--dl-color-gray-black);
   font-size: 3rem;
   text-align: center;
+}
+.contact-code-embed {
+  width: auto;
+  min-width: 50%;
+}
+.contact-container1 {
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .contact-lottie-node {
   width: auto;

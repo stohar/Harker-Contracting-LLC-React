@@ -50,6 +50,10 @@
       <link href="./contact.css" rel="stylesheet" />
       <script
         type="text/javascript"
+        src="https://unpkg.com/dangerous-html@0.1.12/dist/default/lib.umd.js"
+      ></script>
+      <script
+        type="text/javascript"
         src="https://unpkg.com/@lottiefiles/lottie-player@1.6.0/dist/lottie-player.js"
       ></script>
 
@@ -102,18 +106,103 @@
         </div>
         <div class="contact-banner">
           <h1 class="contact-text">Contact Us</h1>
-          <lottie-player
-            src="https://assets10.lottiefiles.com/private_files/lf30_y9czxcb9.json"
-            loop=""
-            speed="1"
-            autoplay=""
-            background="transparent"
-            class="contact-lottie-node"
-          ></lottie-player>
-          <span class="contact-text1">
-            Sorry, we're still working on this page. Check back soon!
-          </span>
-          <a href="index.html" class="contact-navlink button">Let's go home!</a>
+          <div class="contact-code-embed">
+            <dangerous-html
+              html="<style>
+  form {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Sans-Serif;
+  }
+
+  input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  .form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form-group label {
+    margin-bottom: 0px;
+  }
+
+  .form-group:last-child {
+    margin-bottom: 24px;
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+</style>
+
+<form action='mailto:contact@hrkr.net' method='post' enctype='text/plain'>
+  <div class='form-group'>
+    <label for='name'>Name:</label>
+    <input type='text' id='name' name='name' required>
+  </div>
+
+  <div class='form-group'>
+    <label for='email'>Email:</label>
+    <input type='email' id='email' name='email' required>
+  </div>
+
+  <div class='form-group'>
+    <label for='message' style='vertical-align: top;'>Message:</label>
+    <textarea id='message' name='message' required></textarea>
+  </div>
+
+  <input type='submit' value='Submit'>
+</form>
+"
+            ></dangerous-html>
+          </div>
+          <div class="contact-container1">
+            <lottie-player
+              src="https://assets10.lottiefiles.com/private_files/lf30_y9czxcb9.json"
+              loop=""
+              speed="1"
+              autoplay=""
+              background="transparent"
+              class="contact-lottie-node"
+            ></lottie-player>
+            <span class="contact-text1">
+              Sorry, we're still working on this page. Check back soon!
+            </span>
+            <a href="index.html" class="contact-navlink button">
+              Let's go home!
+            </a>
+          </div>
         </div>
         <div class="footer-container footer-root-class-name">
           <span class="footer-text TextSM">
