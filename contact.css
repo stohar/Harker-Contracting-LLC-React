@@ -116,12 +116,12 @@
 .header-root-class-name {
   margin-bottom: 0px;
 }
-.header-root-class-name2 {
-  flex: 0 0 auto;
+.header-root-class-name1 {
   max-width: 100%;
   align-self: center;
 }
-.header-root-class-name1 {
+.header-root-class-name2 {
+  flex: 0 0 auto;
   max-width: 100%;
   align-self: center;
 }
@@ -161,10 +161,10 @@
   .header-mobile-menu {
     padding: 16px;
   }
-  .header-root-class-name2 {
+  .header-root-class-name1 {
     margin-bottom: 0px;
   }
-  .header-root-class-name1 {
+  .header-root-class-name2 {
     margin-bottom: 0px;
   }
 }
@@ -173,13 +173,12 @@
   width: 100%;
   height: auto;
   display: flex;
-  padding: var(--dl-space-space-unit);
   align-items: center;
-  padding-top: var(--dl-space-space-doubleunit);
-  padding-left: var(--dl-space-space-doubleunit);
-  padding-right: var(--dl-space-space-doubleunit);
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-doubleunit);
+  padding-bottom: var(--dl-space-space-unit);
   justify-content: center;
   background-color: var(--dl-color-pimary-500);
 }

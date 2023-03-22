@@ -1,4 +1,4 @@
-.wi-fi-terms-of-service-container {
+.wi-fi-connection-successful-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -8,80 +8,70 @@
   justify-content: flex-start;
   background-color: var(--dl-color-pimary-800);
 }
-.wi-fi-terms-of-service-banner {
+.wi-fi-connection-successful-banner {
   width: 100%;
   display: flex;
   padding: 48px;
+  position: relative;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
 }
-.wi-fi-terms-of-service-image {
+.wi-fi-connection-successful-image {
   width: auto;
   height: auto;
   object-fit: cover;
 }
-.wi-fi-terms-of-service-text {
+.wi-fi-connection-successful-text {
   color: var(--dl-color-gray-black);
   font-size: 3rem;
   text-align: center;
 }
-.wi-fi-terms-of-service-text01 {
+.wi-fi-connection-successful-text01 {
   color: var(--dl-color-gray-black);
   max-width: 1400px;
-  margin-top: 0px;
+  margin-top: 32px;
   text-align: center;
   line-height: 1.25;
-  padding-left: 25px;
-  margin-bottom: 0px;
-  padding-right: 25px;
+  margin-bottom: 32px;
 }
-.wi-fi-terms-of-service-text05 {
+.wi-fi-connection-successful-text11 {
   font-weight: 700;
 }
-.wi-fi-terms-of-service-text10 {
-  font-weight: 700;
+.wi-fi-connection-successful-div {
+  width: auto;
+  height: 56px;
+  margin-bottom: 32px;
 }
-.wi-fi-terms-of-service-text15 {
-  font-weight: 700;
-}
-.wi-fi-terms-of-service-text20 {
-  font-weight: 700;
-}
-.wi-fi-terms-of-service-text23 {
+.wi-fi-connection-successful-navlink {
   color: var(--dl-color-gray-black);
-  line-height: 1.25;
+  transition: 0.3s;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.wi-fi-terms-of-service-text24 {
-  font-weight: 700;
-}
-.wi-fi-terms-of-service-text25 {
-  font-weight: 700;
-}
-.wi-fi-terms-of-service-text31 {
-  font-weight: 700;
-}
-.wi-fi-terms-of-service-text36 {
-  font-size: 1.25rem;
-  font-weight: 700;
+.wi-fi-connection-successful-navlink:hover {
+  transform: scale(1.02);
 }
 @media(max-width: 991px) {
-  .wi-fi-terms-of-service-text01 {
+  .wi-fi-connection-successful-text01 {
     max-width: 100%;
   }
 }
 @media(max-width: 767px) {
-  .wi-fi-terms-of-service-banner {
+  .wi-fi-connection-successful-banner {
     padding-left: 32px;
     padding-right: 32px;
   }
-  .wi-fi-terms-of-service-text01 {
+  .wi-fi-connection-successful-text01 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 479px) {
-  .wi-fi-terms-of-service-banner {
+  .wi-fi-connection-successful-banner {
     padding-top: 32px;
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
