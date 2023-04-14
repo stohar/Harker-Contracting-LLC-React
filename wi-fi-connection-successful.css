@@ -10,6 +10,7 @@
 }
 .wi-fi-connection-successful-banner {
   width: 100%;
+  height: auto;
   display: flex;
   padding: 48px;
   position: relative;
@@ -27,6 +28,11 @@
   font-size: 3rem;
   text-align: center;
 }
+.wi-fi-connection-successful-div {
+  width: auto;
+  height: 56px;
+  margin-bottom: 0px;
+}
 .wi-fi-connection-successful-text01 {
   color: var(--dl-color-gray-black);
   max-width: 1400px;
@@ -37,11 +43,6 @@
 }
 .wi-fi-connection-successful-text11 {
   font-weight: 700;
-}
-.wi-fi-connection-successful-div {
-  width: auto;
-  height: 56px;
-  margin-bottom: 32px;
 }
 .wi-fi-connection-successful-navlink {
   color: var(--dl-color-gray-black);
